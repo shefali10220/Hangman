@@ -9,7 +9,7 @@ Before the user starts guessing, guessed flag is set to zero , a guesses list is
 
 Case Senario 1: The guessed letter is present in the game word.
 
-              The guessed letter replaced the "_". to do this a for look is used. Here the for loop traverses through the game word and find the indice of the letter and then using this number the letter is changed using join.
+              The guessed letter replaced the "_". to do this a for look is used.First the word is comverted into a listand  a for loop traverses through the game word and find the indice of the letter and then using this number the letter is changed using join.
               
 Case Senario 2: The guessed letter isnt present in the game word.
 
